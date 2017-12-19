@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/electroemb/!svn/ver/192/trunk/Environ/examples/example01/reference
+END
+results.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/electroemb/!svn/ver/192/trunk/Environ/examples/example01/reference/results.txt
+END
+h2o_water.out
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/electroemb/!svn/ver/192/trunk/Environ/examples/example01/reference/h2o_water.out
+END
+h2o_vacuum.out
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/electroemb/!svn/ver/192/trunk/Environ/examples/example01/reference/h2o_vacuum.out
+END

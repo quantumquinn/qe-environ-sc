@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/electroemb/!svn/ver/238/trunk/Environ/src
+END
+environ_main.f90
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/electroemb/!svn/ver/209/trunk/Environ/src/environ_main.f90
+END
+calc_rhopol.f90
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/electroemb/!svn/ver/233/trunk/Environ/src/calc_rhopol.f90
+END
+environ_debug.f90
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/electroemb/!svn/ver/234/trunk/Environ/src/environ_debug.f90
+END
+solvent.f90
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/electroemb/!svn/ver/235/trunk/Environ/src/solvent.f90
+END
+ioncc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/electroemb/!svn/ver/213/trunk/Environ/src/ioncc.f90
+END
+epsregion.f90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/electroemb/!svn/ver/234/trunk/Environ/src/epsregion.f90
+END
+environ_info.f90
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/electroemb/!svn/ver/215/trunk/Environ/src/environ_info.f90
+END
+periodic.f90
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/electroemb/!svn/ver/213/trunk/Environ/src/periodic.f90
+END
+environ_input.f90
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/electroemb/!svn/ver/235/trunk/Environ/src/environ_input.f90
+END
+cavity.f90
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/electroemb/!svn/ver/214/trunk/Environ/src/cavity.f90
+END
+solvent_tddfpt.f90
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/electroemb/!svn/ver/223/trunk/Environ/src/solvent_tddfpt.f90
+END
+calc_vpol.f90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/electroemb/!svn/ver/232/trunk/Environ/src/calc_vpol.f90
+END
+environ_init.f90
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/electroemb/!svn/ver/213/trunk/Environ/src/environ_init.f90
+END
+pressure.f90
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/electroemb/!svn/ver/214/trunk/Environ/src/pressure.f90
+END
+environ_makov_payne.f90
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/electroemb/!svn/ver/213/trunk/Environ/src/environ_makov_payne.f90
+END
+extcharge.f90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/electroemb/!svn/ver/238/trunk/Environ/src/extcharge.f90
+END
+make.depend
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/electroemb/!svn/ver/183/trunk/Environ/src/make.depend
+END
+environ_mod.f90
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/electroemb/!svn/ver/235/trunk/Environ/src/environ_mod.f90
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/electroemb/!svn/ver/223/trunk/Environ/src/Makefile
+END
+generate_dielectric.f90
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/electroemb/!svn/ver/223/trunk/Environ/src/generate_dielectric.f90
+END

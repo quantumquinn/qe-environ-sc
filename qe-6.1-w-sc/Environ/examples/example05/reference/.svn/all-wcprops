@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference
+END
+environ.in
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/environ.in
+END
+CH4_solvent.turbo-spectrum.in
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_solvent.turbo-spectrum.in
+END
+CH4_solvent.turbo-spectrum.out
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_solvent.turbo-spectrum.out
+END
+CH4_vacuum.turbo-spectrum.in
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_vacuum.turbo-spectrum.in
+END
+CH4_vacuum.turbo-spectrum.out
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_vacuum.turbo-spectrum.out
+END
+CH4_solvent.turbo-lanczos.in
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_solvent.turbo-lanczos.in
+END
+CH4_solvent.turbo-lanczos.out
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_solvent.turbo-lanczos.out
+END
+CH4_vacuum.turbo-lanczos.in
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_vacuum.turbo-lanczos.in
+END
+CH4_vacuum.turbo-lanczos.out
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_vacuum.turbo-lanczos.out
+END
+CH4_solvent.plot
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_solvent.plot
+END
+CH4_solvent.scf.in
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_solvent.scf.in
+END
+CH4_solvent.scf.out
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_solvent.scf.out
+END
+CH4_vacuum.plot
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_vacuum.plot
+END
+CH4_vacuum.scf.in
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_vacuum.scf.in
+END
+CH4_vacuum.scf.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example05/reference/CH4_vacuum.scf.out
+END

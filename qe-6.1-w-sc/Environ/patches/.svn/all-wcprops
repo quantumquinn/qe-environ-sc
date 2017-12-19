@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/electroemb/!svn/ver/220/trunk/Environ/patches
+END
+cp-revert.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/electroemb/!svn/ver/220/trunk/Environ/patches/cp-revert.sh
+END
+qe-revert.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/electroemb/!svn/ver/173/trunk/Environ/patches/qe-revert.sh
+END
+cp-patch.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/electroemb/!svn/ver/220/trunk/Environ/patches/cp-patch.sh
+END
+environpatch.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/electroemb/!svn/ver/219/trunk/Environ/patches/environpatch.sh
+END
+qe-patch.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/electroemb/!svn/ver/217/trunk/Environ/patches/qe-patch.sh
+END

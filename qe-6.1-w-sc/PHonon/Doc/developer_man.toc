@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Who should read (and who should {\em write}) this guide}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Who may read this guide but will not necessarily profit from it}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}General structure of \texttt {ph.x}}{2}{section.2}
+\contentsline {section}{\numberline {3}GRID parallelization and recover}{5}{section.3}
+\contentsline {section}{\numberline {4}Parallelization}{7}{section.4}
+\contentsline {section}{\numberline {5}Files produced by ph.x}{7}{section.5}
+\contentsline {section}{\numberline {6}The routines of the PHonon package}{9}{section.6}
+\contentsline {section}{\numberline {7}Suggestion for developers}{21}{section.7}
+\contentsline {section}{\numberline {8}File Formats}{23}{section.8}
+\contentsline {section}{\numberline {9}Bibliography}{27}{section.9}

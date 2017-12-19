@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/electroemb/!svn/ver/178/trunk/Environ/examples/example02/reference
+END
+results.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/electroemb/!svn/ver/178/trunk/Environ/examples/example02/reference/results.txt
+END
+piridine_vacuum_makov-payne.out
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/electroemb/!svn/ver/178/trunk/Environ/examples/example02/reference/piridine_vacuum_makov-payne.out
+END
+piridine_water_pcc.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/electroemb/!svn/ver/178/trunk/Environ/examples/example02/reference/piridine_water_pcc.out
+END
+piridine_water_makov-payne.out
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/electroemb/!svn/ver/178/trunk/Environ/examples/example02/reference/piridine_water_makov-payne.out
+END
+piridine_vacuum_none.out
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/electroemb/!svn/ver/178/trunk/Environ/examples/example02/reference/piridine_vacuum_none.out
+END
+piridine_water_none.out
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/electroemb/!svn/ver/178/trunk/Environ/examples/example02/reference/piridine_water_none.out
+END
+piridine_vacuum_martyna-tuckerman.out
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/electroemb/!svn/ver/178/trunk/Environ/examples/example02/reference/piridine_vacuum_martyna-tuckerman.out
+END
+piridine_water_martyna-tuckerman.out
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/electroemb/!svn/ver/178/trunk/Environ/examples/example02/reference/piridine_water_martyna-tuckerman.out
+END
+piridine_vacuum_pcc.out
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/electroemb/!svn/ver/178/trunk/Environ/examples/example02/reference/piridine_vacuum_pcc.out
+END

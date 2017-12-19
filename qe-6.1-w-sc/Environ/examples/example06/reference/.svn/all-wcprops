@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference
+END
+CH4_vacuum.turbo-davidson.in
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/CH4_vacuum.turbo-davidson.in
+END
+CH4_vacuum.turbo-davidson.out
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/CH4_vacuum.turbo-davidson.out
+END
+CH4_vacuum.eigen
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/CH4_vacuum.eigen
+END
+CH4_solvent.plot
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/CH4_solvent.plot
+END
+environ.in
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/environ.in
+END
+CH4_solvent.scf.in
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/CH4_solvent.scf.in
+END
+CH4_solvent.scf.out
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/CH4_solvent.scf.out
+END
+CH4_vacuum.plot
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/CH4_vacuum.plot
+END
+CH4_solvent.turbo-davidson.in
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/CH4_solvent.turbo-davidson.in
+END
+CH4_solvent.turbo-davidson.out
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/CH4_solvent.turbo-davidson.out
+END
+CH4_vacuum.scf.in
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/CH4_vacuum.scf.in
+END
+CH4_solvent.eigen
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/CH4_solvent.eigen
+END
+CH4_vacuum.scf.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/electroemb/!svn/ver/187/trunk/Environ/examples/example06/reference/CH4_vacuum.scf.out
+END

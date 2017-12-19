@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2012 (1.2)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>4.2 Calculation of interatomic force constants in real space</TITLE>
+<META NAME="description" CONTENT="4.2 Calculation of interatomic force constants in real space">
+<META NAME="keywords" CONTENT="user_guide">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2012">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="user_guide.css">
+
+<LINK REL="next" HREF="node9.html">
+<LINK REL="previous" HREF="node7.html">
+<LINK REL="up" HREF="node6.html">
+<LINK REL="next" HREF="node9.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html136"
+  HREF="node9.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html132"
+  HREF="node6.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html126"
+  HREF="node7.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html134"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Next:</B> <A NAME="tex2html137"
+  HREF="node9.html">4.3 Calculation of electron-phonon</A>
+<B> Up:</B> <A NAME="tex2html133"
+  HREF="node6.html">4 Using PHonon</A>
+<B> Previous:</B> <A NAME="tex2html127"
+  HREF="node7.html">4.1 Single-q calculation</A>
+ &nbsp; <B>  <A NAME="tex2html135"
+  HREF="node1.html">Contents</A></B> 
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00052000000000000000">
+4.2 Calculation of interatomic force constants in real space</A>
+</H2>
+
+<P>
+First, dynamical matrices are calculated and saved for a suitable uniform 
+grid of <B>q</B>-vectors (only those in the Irreducible Brillouin Zone of the
+crystal are needed). Although this can be done one <B>q</B>-vector at the 
+time, a
+simpler procedure is to specify variable <TT>ldisp=.true.</TT> and to set 
+variables <TT>nq1</TT>, <TT>nq2</TT>, <TT>nq3</TT> to some suitable 
+Monkhorst-Pack grid, that will be automatically generated, centered at 
+<IMG
+ WIDTH="16" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img1.png"
+ ALT="$ \bf q$"> = 0
+<tex2html_verbatim_mark>. 
+
+<P>
+Second, code <TT>q2r.x</TT> reads the dynamical matrices produced in the
+preceding step and Fourier-transform them, writing a file of Interatomic Force
+Constants in real space, up to a distance that depends on the size of the grid
+of <B>q</B>-vectors. Input documentation in the header of <TT>PHonon/PH/q2r.f90</TT>.
+
+<P>
+Program <TT>matdyn.x</TT> may be used to produce phonon modes and
+frequencies at any <B>q</B> using the Interatomic Force Constants file as input.
+Input documentation in the header of <TT>PHonon/PH/matdyn.f90</TT>.
+
+<P>
+See Example 02 for a complete calculation of phonon dispersions in AlAs.
+
+<P>
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html136"
+  HREF="node9.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html132"
+  HREF="node6.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html126"
+  HREF="node7.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html134"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Next:</B> <A NAME="tex2html137"
+  HREF="node9.html">4.3 Calculation of electron-phonon</A>
+<B> Up:</B> <A NAME="tex2html133"
+  HREF="node6.html">4 Using PHonon</A>
+<B> Previous:</B> <A NAME="tex2html127"
+  HREF="node7.html">4.1 Single-q calculation</A>
+ &nbsp; <B>  <A NAME="tex2html135"
+  HREF="node1.html">Contents</A></B> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+
+2017-03-03
+</ADDRESS>
+</BODY>
+</HTML>

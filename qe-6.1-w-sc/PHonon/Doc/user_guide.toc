@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}People}{2}{section.2}
+\contentsline {section}{\numberline {3}Installation}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Compilation}{3}{subsection.3.1}
+\contentsline {section}{\numberline {4}Using \texttt {PHonon}}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Single-{\bf q} calculation}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Calculation of interatomic force constants in real space}{5}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Calculation of electron-phonon interaction coefficients}{5}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}DFPT with the tetrahedron method}{6}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Calculation of electron-phonon interaction coefficients with the tetrahedron method}{6}{subsection.4.5}
+\contentsline {section}{\numberline {5}Parallelism}{7}{section.5}
+\contentsline {section}{\numberline {6}Troubleshooting}{7}{section.6}
+\contentsline {paragraph}{ph.x stops with {\em error reading file}}{7}{section*.2}
+\contentsline {paragraph}{ph.x mumbles something like {\em cannot recover} or {\em error reading recover file}}{8}{section*.3}
+\contentsline {paragraph}{ph.x says {\em occupation numbers probably wrong} and continues}{8}{section*.4}
+\contentsline {paragraph}{ph.x does not yield acoustic modes with zero frequency at ${\bf q}=0$}{8}{section*.5}
+\contentsline {paragraph}{ph.x yields really lousy phonons, with bad or ``negative'' frequencies or wrong symmetries or gross ASR violations}{8}{section*.6}
+\contentsline {paragraph}{{\em Wrong degeneracy} error in star\_q}{9}{section*.7}
+\contentsline {section}{\numberline {A}Appendix: Electron-phonon coefficients}{9}{appendix.A}

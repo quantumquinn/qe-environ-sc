@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/electroemb/!svn/ver/232/trunk/Environ/examples/example08
+END
+run_example.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/electroemb/!svn/ver/232/trunk/Environ/examples/example08/run_example.sh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/electroemb/!svn/ver/226/trunk/Environ/examples/example08/README
+END

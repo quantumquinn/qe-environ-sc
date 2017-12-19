@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2012 (1.2)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>4 Using PHonon</TITLE>
+<META NAME="description" CONTENT="4 Using PHonon">
+<META NAME="keywords" CONTENT="user_guide">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2012">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="user_guide.css">
+
+<LINK REL="next" HREF="node12.html">
+<LINK REL="previous" HREF="node4.html">
+<LINK REL="up" HREF="user_guide.html">
+<LINK REL="next" HREF="node7.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html107"
+  HREF="node7.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html103"
+  HREF="user_guide.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html97"
+  HREF="node5.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html105"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Next:</B> <A NAME="tex2html108"
+  HREF="node7.html">4.1 Single-q calculation</A>
+<B> Up:</B> <A NAME="tex2html104"
+  HREF="user_guide.html">User's Guide for the</A>
+<B> Previous:</B> <A NAME="tex2html98"
+  HREF="node5.html">3.1 Compilation</A>
+ &nbsp; <B>  <A NAME="tex2html106"
+  HREF="node1.html">Contents</A></B> 
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00050000000000000000">
+4 Using <TT>PHonon</TT></A>
+</H1>
+
+<P>
+Phonon calculation is presently a two-step process.
+First, you have to find the ground-state atomic and electronic configuration;
+Second, you can calculate phonons using Density-Functional Perturbation Theory.
+Further processing to calculate Interatomic Force Constants, to add macroscopic
+electric field and impose Acoustic Sum Rules at <IMG
+ WIDTH="16" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img1.png"
+ ALT="$ \bf q$"> = 0
+<tex2html_verbatim_mark> may be needed.
+In the following, we will indicate by <IMG
+ WIDTH="16" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img1.png"
+ ALT="$ \bf q$">
+<tex2html_verbatim_mark> the phonon wavevectors, 
+while <IMG
+ WIDTH="16" HEIGHT="20" ALIGN="BOTTOM" BORDER="0"
+ SRC="img7.png"
+ ALT="$ \bf k$">
+<tex2html_verbatim_mark> will indicate Bloch vectors used for summing over the 
+Brillouin Zone.
+
+<P>
+The main code <TT>ph.x</TT> can be used whenever <TT>PWscf</TT> can be used, 
+with the exceptions of DFT+U, hybrid functionals, external electric fields,
+constraints on magnetization, nonperiodic boundary conditions.
+USPP and PAW are not implemented for higher-order response calculations.
+See the header of file <TT>PHonon/PH/phonon.f90</TT> for a complete and
+updated list of what <TT>PHonon</TT> can and cannot do.
+
+<P>
+Since version 4.0 it is possible to safely stop execution of <TT>ph.x</TT> code using
+the same mechanism of the <TT>pw.x</TT> code, i.e. by creating a file 
+<TT>prefix.EXIT</TT> in the working directory. Execution can be resumed by 
+setting <TT>recover=.true.</TT> in the subsequent input data.
+Moreover the execution can be (cleanly) stopped after a given time is elapsed,
+using variable <TT>max_seconds</TT>. See <TT>example/Recover_example/</TT>.
+
+<P>
+<BR><HR>
+<!--Table of Child-Links-->
+<A NAME="CHILD_LINKS"><STRONG>Subsections</STRONG></A>
+
+<UL>
+<LI><A NAME="tex2html109"
+  HREF="node7.html">4.1 Single-<B>q</B> calculation</A>
+<LI><A NAME="tex2html110"
+  HREF="node8.html">4.2 Calculation of interatomic force constants in real space</A>
+<LI><A NAME="tex2html111"
+  HREF="node9.html">4.3 Calculation of electron-phonon interaction coefficients</A>
+<LI><A NAME="tex2html112"
+  HREF="node10.html">4.4 DFPT with the tetrahedron method</A>
+<LI><A NAME="tex2html113"
+  HREF="node11.html">4.5 Calculation of electron-phonon interaction coefficients with the tetrahedron method</A>
+</UL>
+<!--End of Table of Child-Links-->
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html107"
+  HREF="node7.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html103"
+  HREF="user_guide.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html97"
+  HREF="node5.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html105"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Next:</B> <A NAME="tex2html108"
+  HREF="node7.html">4.1 Single-q calculation</A>
+<B> Up:</B> <A NAME="tex2html104"
+  HREF="user_guide.html">User's Guide for the</A>
+<B> Previous:</B> <A NAME="tex2html98"
+  HREF="node5.html">3.1 Compilation</A>
+ &nbsp; <B>  <A NAME="tex2html106"
+  HREF="node1.html">Contents</A></B> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+
+2017-03-03
+</ADDRESS>
+</BODY>
+</HTML>
