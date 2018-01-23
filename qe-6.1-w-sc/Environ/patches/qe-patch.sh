@@ -437,7 +437,7 @@ sed '/Environ VARIABLES BEGIN/ a\
   REAL(DP)                  :: sqbohrtosqcm \
   REAL(DP)                  :: chg_per_area \
   REAL(DP)                  :: ss_chg_per_area \
-  REAL(DP)                  :: ss_potential \
+  REAL(DP)                  :: ss_potential, total_potential \
   REAL(DP)                  :: dft_chg_max, dft_chg_min \
   REAL(DP)                  :: change_vec \
   REAL(DP)                  :: v_cut \
@@ -597,7 +597,8 @@ sed '/Environ CALLS BEGIN/ a\
              WRITE(STDOUT, 1003)chg_step,prev_step_size,ss_chg,cur_dchg,& \
                                 &bulk_potential \
              OPEN(21,file = "q-v.dat", status = "unknown") \
-             WRITE(21, *)"Potential (V-V_fb)    Electrode Charge (e)",& \
+             WRITE(37, *)"Potential (V-V_fb)  Surface State Potential (V-V_cut)",& \
+                          &"  Electrode Charge (e)",& \
                           &"  Surface States Charge (e)    ",& \
                           &"Electrode Charge per surface area (e/cm^2)     ",& \
                           &"Surface State Charge per surface area (e/cm^2)" \
@@ -608,7 +609,7 @@ sed '/Environ CALLS BEGIN/ a\
              ss_potential = -bulk_potential \
              CALL mp_bcast(ss_potential, ionode_id, intra_image_comm) \
              !print *, bulk_potential,ss_potential \
-             WRITE(21, 1004)ss_potential,& \
+             WRITE(37, 1004)total_potential, ss_potential,&\
                              &electrode_charge, ss_chg,& \
                              &chg_per_area,ss_chg_per_area \
              CLOSE(21) \
@@ -641,7 +642,7 @@ sed '/Environ CALLS BEGIN/ a\
                 &"     Final Potential: ",F14.8," V", //& \
                 &"     Output written to q-v.dat       ",//& \
                  "***************************************************") \
-1004 FORMAT(1x,3F14.8,2ES12.5) \
+1004 FORMAT(1x,4F14.8,2ES12.5) \
 !Environ patch 
 ' tmp.2 > tmp.1
 
