@@ -10,7 +10,7 @@ def main():
 	prefix = 'Si-OH'	
 	tot_charge = ['0.001','0.003','0.005','0.007','0.009','0.011','0.018']
 	f = open('%s.q-v.dat'%prefix,'w')
-	f.write(""" Potential (V-V_fb)    Electrode Charge (e)  Surface States Charge (e)    
+	f.write(""" Potential (V-V_fb)  SS potential (V-V_cut)  Electrode Charge (e)  Surface States Charge (e)    
  Electrode Charge per surface area (e/cm^2)     
  Surface State Charge per surface area (e/cm^2)\n""")
 
