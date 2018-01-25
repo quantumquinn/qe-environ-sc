@@ -597,7 +597,7 @@ sed '/Environ CALLS BEGIN/ a\
              WRITE(STDOUT, 1003)chg_step,prev_step_size,ss_chg,cur_dchg,& \
                                 &bulk_potential \
              OPEN(21,file = "q-v.dat", status = "unknown") \
-             WRITE(37, *)"Potential (V-V_fb)  Surface State Potential (V-V_cut)",& \
+             WRITE(37, *)"Potential (V-V_fb)  Surface State Potential (V_cut-V_fb)",& \
                           &"  Electrode Charge (e)",& \
                           &"  Surface States Charge (e)    ",& \
                           &"Electrode Charge per surface area (e/cm^2)     ",& \
