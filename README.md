@@ -1,7 +1,7 @@
-Quantum Espresso 6.1 with the Environ module modified to allow for the calculation of equilibrium semiconductor-solution interfaces. 
+Quantum Espresso 6.1 with the Environ 0.2 module modified to allow for the calculation of equilibrium semiconductor-solution interfaces. 
 
 Install as you normally would quantum espresso and then follow directions for the typical installation of the Environ module. 
-See http://www.quantum-environment.org/installation.html
+See http://www.quantum-environment.org/installation.html (edit: warning! installation instructions for Environ have changed on the website. I am currently recreating the old installation instructions to place here).
 
 The example folder provides a series of inputs for a silicon slab in contact with water. 
 It also contains scripts allowing for the rapid creation of several charges at once and the easy compilation of q-v files.
