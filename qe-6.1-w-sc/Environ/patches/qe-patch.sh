@@ -378,10 +378,12 @@ sed '/Environ CALLS BEGIN/ a\
             tot_charge =0.7*electrode_charge \
             insert_helmholtz = .TRUE. \
             CALL read_flatband_pot() \
+            WRITE( stdout, 1000) \
             WRITE( stdout, 1001)flatband_fermi,tot_charge \
         CASE("from_scratch") \
             tot_charge = 0.0 \
             insert_helmholtz = .FALSE. \
+            WRITE( stdout, 1000) \
             WRITE( stdout, 1002) tot_charge \
         CASE DEFAULT \
  \
@@ -395,6 +397,12 @@ sed '/Environ CALLS BEGIN/ a\
  \
   END IF \
  \
+1000 FORMAT(5X,//"*******************************************"//,& \
+                &"  Please cite                              "//,& \
+                &"  Q. Campbell, D. Fisher and I. Dabo, Phys. Rev. Mat. 3, 015404 (2019)."//,& \
+                &"  doi: 10.1103/PhysRevMaterials.3.015404   "//,& \
+                &"  In any publications resulting from this work.") \
+\
 1001 FORMAT(5x,//"*******************************************"//,& \
                &"     Flatband potential of ",F14.8," read from input."// & \
             &   "     Using initial charge of:  ",F14.8,//& \
@@ -597,7 +605,7 @@ sed '/Environ CALLS BEGIN/ a\
              WRITE(STDOUT, 1003)chg_step,prev_step_size,ss_chg,cur_dchg,& \
                                 &bulk_potential \
              OPEN(21,file = "q-v.dat", status = "unknown") \
-             WRITE(37, *)"Potential (V-V_fb)  Surface State Potential (V_cut-V_fb)",& \
+             WRITE(37, *)"Potential (V-V_fb)  Surface State Potential (V-V_cut)",& \
                           &"  Electrode Charge (e)",& \
                           &"  Surface States Charge (e)    ",& \
                           &"Electrode Charge per surface area (e/cm^2)     ",& \
